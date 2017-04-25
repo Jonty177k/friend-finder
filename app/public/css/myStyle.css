@@ -1,0 +1,76 @@
+.container {
+	font-family: 'Amatic SC', cursive;
+	margin-top: 10px;
+}
+#survey-header {
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+}
+#about-header {
+	font-weight: bold;
+	font-size: 50px;
+}
+#name {
+	font-size: 40px;
+}
+#your-photo {
+	font-size: 40px;
+}
+#usr-name {
+	font-size: 30px;
+}
+#usr-photo{
+	font-size: 30px;
+}
+
+.q-header {
+	font-weight: bold;
+	font-size: 40px;
+}
+.form-control {
+	font-size: 20px;
+	font-weight: bold;
+}
+.survey-questions {
+	font-size: 30px;
+	margin-top: 30px;
+}
+.btn-default {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	width: 500px;
+	margin-left: 300px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+#home-container {
+	font-family: 'Amatic SC', cursive;
+	margin-top: 10px;	
+}
+#home-header {
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;	
+}
+#home-text {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;	
+}
+#take-survey-btn {
+	margin-top: 30px;
+	margin-left: 34%;
+}
+#usr-1, #usr-2, #usr-3, #usr-4, #usr-5, #usr-6, #usr-7, #usr-8, #usr-9, #usr-10 {
+	font-size: 30px;
+	font-weight: bold;
+}
+/*.form-control {
+	height: 20px;
+}*/

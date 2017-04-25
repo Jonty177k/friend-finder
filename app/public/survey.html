@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matthew's Friend Finder Home!</title>
+	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	
+<div class="container">
+	<div id="survey-header">Survey Questions</div>
+
+	<div class="about">
+		<div id="about-header">About You</div>
+		<div id="name">Name</div>
+			  <input type="text" class="form-control" id="usr-name">
+		<div id="your-photo">Photo of You</div>
+			  <input type="text" class="form-control" id="usr-photo">
+	</div>
+
+	<div class="survey-questions">
+		<div class="q-header">Question 1</div>
+			<div id="q1">What's your greatest pursuit in life? Wealth (1) or Knowledge (5)?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-1">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>
+		<div class="q-header">Question 2</div>
+			<div id="q2">Your highly ambitious and career focused?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-2">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>
+		<div class="q-header">Question 3</div>
+			<div id="q3">You would describe yourself as a very spiritual person?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-3">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>	
+		<div class="q-header">Question 4</div>
+			<div id="q4">Do you need to be in contact with your partner every day?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-4">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 5</div>
+			<div id="q5">Proximity is very important to you when finding a partner?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-5">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 6</div>
+			<div id="q6">You would describe yourself as difficult to anger or upset?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-6">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 7</div>
+			<div id="q7">How do you feel after spending time with people? Energetic (1) or Lathargic (5)?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-7">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 8</div>
+			<div id="q8">Do you generally appeal to emotion (1) or the empirical (5) in arguments?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-8">
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 9</div>
+			<div id="q9">Your politics are to Left (1) or Right (5)?</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-9">
+			    <option>1 'Ralph Nader'</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5 'Milton Friedman'</option>
+			  </select>
+			</div>		
+		<div class="q-header">Question 10</div>
+			<div id="q10">Rate George Carlin:</div>
+			<div class="form-group">
+			  <label for="sel1">Select list:</label>
+			  <select class="form-control" id="usr-10">
+			    <option>1 'Ew'</option>
+			    <option>2</option>
+			    <option>3</option>
+			    <option>4</option>
+			    <option>5 'Genius'</option>
+			  </select>
+			</div>	
+	</div>
+	<button id="submit" class="btn-default">Submit</button>
+</div>
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+
+	// $(".bth").on("click", function() {
+	// 	$("#myModal").modal('toggle');
+	// }
+
+    $("#submit").on("click", function(){
+
+	    	var userData = {
+	    		name: $("#usr-name").val(),
+	    		photo: $("#usr-photo").val(),
+	    		scores:[$("#usr-1").val(), 
+	    				$("#usr-2").val(), 
+	    				$("#usr-3").val(), 
+	    				$("#usr-4").val(), 
+	    				$("#usr-5").val(), 
+	    				$("#usr-6").val(), 
+	    				$("#usr-7").val(), 
+	    				$("#usr-8").val(), 
+	    				$("#usr-9").val(), 
+	    				$("#usr-10").val()
+	    			]
+	    	};
+
+	    	var myURL = window.location.origin;
+
+	    	$.post(myURL + "/api/friends", userData, function(data){
+
+	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
+	    		$("#matchName").text(data.name);
+	    		$('#matchImg').attr("src", data.photo);
+
+		    	// Show the modal with the best match 
+		    	
+
+	    	});
+    });
+
+
+</script>
+
+</body>
+</html>
